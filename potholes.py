@@ -47,3 +47,19 @@ for num, block in num_potholes_block[:10]:
 # >>> import csv
 # >>> r = csv.DictReader(f)
 # >>> next(r)
+
+
+# >>> nums = [1, 3, 5, 7]
+# >>> squares = []
+# >>> for x in nums:
+# ... 	squares.append(x*x)
+# ... 
+# >>> squares
+# [1, 9, 25, 49]
+# the same code
+# >>> squares = [x*x for x in nums]
+# >>> squares
+# [1, 9, 25, 49]
+
+# slide link http://www.slideshare.net/dabeaz/an-introduction-to-python-concurrency
+
