@@ -16,5 +16,3 @@ for bus in doc.findall('bus'):
         if direction.startswith('North'):
             busid = bus.findtext('id')
             print busid, lat
-    
-

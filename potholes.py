@@ -2,7 +2,7 @@
 
 import csv
 
-potholes_by_block = { }
+potholes_by_block = {}
 
 
 def make_block(address):
@@ -61,5 +61,4 @@ for num, block in num_potholes_block[:10]:
 # >>> squares
 # [1, 9, 25, 49]
 
-# slide link http://www.slideshare.net/dabeaz/an-introduction-to-python-concurrency
-
+# slide link http://www.slideshare.net/dabeaz/an-introduction-to-python-concurrencyk
